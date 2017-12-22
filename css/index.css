@@ -2,7 +2,7 @@
 * @Author: 17695
 * @Date:   2017-12-12 14:58:05
 * @Last Modified by:   17695
-* @Last Modified time: 2017-12-18 21:01:27
+* @Last Modified time: 2017-12-20 22:26:12
 */
 @font-face {
   font-family: 'iconfont';  /* project id 507239 */
@@ -538,9 +538,9 @@
 	height: 374px;
 	margin-right: 14px;
 }
-.swiper-container:hover .banner-button{
+/* .swiper-container:hover .banner-button{
 	background-color: #eee;
-}
+} */
 .neirong .banner-button{
 	font-size: 20px;
 	color: #fff;
@@ -548,7 +548,13 @@
 	line-height: 48px;
 	background-image: none;
 }
-.neirong .banner-button:hover{
+/* .neirong .banner-button:hover{
+	background-color: rgba(66,66,66,0.6);
+} */
+.neirong-item:hover .banner-button{
+	background-color: #e5e5e5;
+}
+.neirong .swiper-button-prev:hover,.neirong .swiper-button-next:hover{
 	background-color: rgba(66,66,66,0.6);
 }
 .neirong .swiper-button-prev{
@@ -680,10 +686,23 @@
 	margin-right: 14px;
 	text-align: center;
 	float: left;
+	position: relative;
 }
 .shipin-item1{
 	width: 296px;
 	height: 180px;
+	
+}
+.shipin .shipin-item10{
+	position: absolute;
+	bottom:0;
+	top: 140px;
+	left: 15px;
+	font-size: 28px;
+	color: #fff;
+}
+.shipin-item10:hover{
+	color: orange;
 }
 .shipin-item2{
 	width: 296px;
@@ -693,6 +712,9 @@
     font-weight: 400;
     color: #333;
     margin-top: 28px;
+}
+.shipin-item2:hover{
+	color: orange;
 }
 .shipin-item3{
 	display: block;
@@ -708,7 +730,7 @@
 .banner{
 	width: 1226px;
 	height: 460px;
-	background-color: yellow;
+/* 	background-color: yellow; */
 	margin: 0 auto;
 	position: relative;
 
@@ -887,6 +909,15 @@
 	float: left;
 	color: #616161;
 }
+.foot-top-item2:hover .foot-weixiuwenzi{
+	color: orange;
+}
+.foot-top-item2:hover .foot-weixiu{
+	color: orange;
+}
+.foot-bottom-item2:hover{
+	color: orange;
+}
 .foot-bottom{
 	width: 1226px;
 	height: 112px;
@@ -943,6 +974,12 @@
    	margin: 0 auto;
    	text-align: center;
 }
+.foot-kefu:hover{
+	background-color:  #ff6700;
+}
+.foot-kefu:hover .foot-bottom-xiaoxi{
+	color: #fff;
+}
 .foot-bottom-xiaoxi{
 	font-size: 10px;
 	color: #ff6700;
@@ -952,7 +989,7 @@
 }
 .zuixiamian{
 	width: 100%;
-	height: 106px;
+	/* height: 106px; */
 }
 .zuixiamian-neikuan{
 	width: 1226px;
@@ -1003,4 +1040,7 @@
 	margin-top: 14.5px;
 	float: left;
 	margin-right: 10px;
+}
+.bottom-lianjietop1:hover{
+	color: orange;
 }
